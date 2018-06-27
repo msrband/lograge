@@ -85,7 +85,7 @@ module Lograge
 
   # Loglines are emitted with this log level
   mattr_accessor :log_level
-  self.log_level = :info
+  self.log_level = :error
 
   # The emitted log format
   #
